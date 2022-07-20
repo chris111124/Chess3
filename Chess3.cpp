@@ -43,10 +43,13 @@ int main()
     std::array<char, 4> name;
     bool gameOver{ false }; 
     while (gameOver == false)
+    {
+        std::cout << "You lose.";
+
+    }
 
     return 0;
 }
-
 
 
 
